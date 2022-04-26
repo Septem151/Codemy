@@ -1,0 +1,37 @@
+{
+  "esbonio.sphinx.buildDir": "${workspaceFolder}/docs/_build/html",
+  "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
+  "restructuredtext.linter.run": "onSave",
+  "editor.rulers": [88],
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.linkedEditing": true,
+  "files.associations": {
+    "*.toml": "ini",
+    ".env.*": "dotenv"
+  },
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": ["--rcfile=${workspaceFolder}/pyproject.toml"],
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyArgs": ["--config-file=${workspaceFolder}/mypy.ini"],
+  "python.sortImports.path": "isort",
+  "python.sortImports.args": ["--settings-path", "${workspaceFolder}"],
+  "python.testing.pytestEnabled": true,
+  "[python]": {
+    "editor.wordBasedSuggestions": false,
+    "gitlens.codeLens.symbolScopes": ["!Module"],
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}

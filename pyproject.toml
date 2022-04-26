@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "codemy"
+version = "0.1.0"
+description = "discord economy simulator bot for the New coders discord"
+authors = ["Carson Mullins <carsonmullins@yahoo.com>"]
+license = "GPL-2.0-only"
+readme = "README.rst"
+repository = "https://github.com/Septem151/codemy"
+keywords = ["discord", "bot", "game"]
+classifiers = [
+    "Development Status :: 4 - Production/Stable",
+    "Environment :: No Input/Output (Daemon)",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Games/Entertainment",
+    "Typing :: Typed"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+mypy = "^0.942"
+isort = "^5.10.1"
+pylint = "^2.13.7"
+esbonio = "^0.11.0"
+Sphinx = "^4.5.0"
+sphinx-rtd-theme = "^1.0.0"
+doc8 = "^0.11.1"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+#[tool.pylint.messages_control]
+#disable = "C0330, C0326, W0511"
+
+[tool.pylint.format]
+max-line-length = "88"
