@@ -20,7 +20,7 @@ To run Codemy locally, you will need to have the following prerequisites
 installed:
 
 * `Git`_
-* `Python`_ (>3.10)
+* `Python`_ (>=3.10)
 * `Poetry`_
 
   * ``Poetry`` is a dependency management and packaging tool for Python,
