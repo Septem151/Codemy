@@ -12,12 +12,6 @@ of coding.
    runninglocally
    api
 
-*********
-Licensing
-*********
-
-All code in this repository is licensed under `GPLv2`_.
-
 ******************
 Indices and tables
 ******************
