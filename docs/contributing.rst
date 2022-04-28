@@ -124,6 +124,23 @@ To test this, open ``codemy/__init__.py`` and look for
 
 You're all good to start making changes and writing code!
 
+===================
+Running the Project
+===================
+
+There are multiple ways to run the project. Use whichever one you
+prefer. Make sure the virtual environment is loaded first. If you are
+using the terminal built-in to VS Code, the virtual environment is
+automatically activated upon opening.
+
+The commands are as follows (you only need to use one of them)::
+
+  $ python codemy
+  OR
+  $ python -m codemy
+  OR
+  $ python codemy/__init__.py
+
 =============================
 Staging and Commiting Changes
 =============================
