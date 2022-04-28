@@ -1,13 +1,6 @@
-######
-Codemy
-######
-
-Codemy is a discord bot for an idle-RPG style game relating to the profession
-of coding.
-
-************
+############
 Contributing
-************
+############
 
 Running Codemy locally lets you debug and test the bot's functionality before
 integrating code changes into the repository.
@@ -52,7 +45,7 @@ Forking the Repo
 
 At the top-right of the repository page, click "Fork":
 
-.. image:: docs/images/fork_repo.png
+.. image:: images/fork_repo.png
   :width: 75%
   :align: center
   :alt: Fork Repository Location
@@ -74,7 +67,7 @@ are on Windows)::
 The ``[URL]`` you use will depend on if you select SSH or HTTPS under the
 "Code" dropdown:
 
-.. image:: docs/images/clone_repo.png
+.. image:: images/clone_repo.png
   :width: 50%
   :align: center
   :alt: Clone Repository Location
@@ -114,7 +107,7 @@ and linting for finding errors quickly.
 To install extensions in VS Code, click on the Extensions tab on the
 left-hand side:
 
-.. image:: docs/images/extensions_vscode.png
+.. image:: images/extensions_vscode.png
   :width: 50%
   :align: center
   :alt: Extensions tab in VS Code
@@ -124,7 +117,7 @@ by poetry should automatically be detected when opening a python file.
 To test this, open ``codemy/__init__.py`` and look for
 "Python  3.10.X ('.venv': poetry)" at the bottom-right:
 
-.. image:: docs/images/poetry_vscode.png
+.. image:: images/poetry_vscode.png
   :width: 30%
   :align: center
   :alt: Poetry virtual environment activation in VS Code
@@ -200,7 +193,7 @@ repository, then when you want those changes included in the main repository
 To submit a Pull Request, open the "Pull requests" tab on the parent
 repository:
 
-.. image:: docs/images/pr_vscode.png
+.. image:: images/pr_vscode.png
   :width: 100%
   :align: center
   :alt: Pull Request section on GitHub
@@ -236,16 +229,8 @@ squigglies under problematic code sections.
 are located in the ``tests/`` folder. Generally, you should be creating
 tests for each new feature you add.
 
-*********
-Licensing
-*********
-
-All code in this repository is licensed under `GPLv2`_.
-
-
 .. _Git: https://git-scm.com/downloads
 .. _Visual Studio Code: https://code.visualstudio.com/Download
 .. _Python: https://www.python.org/downloads/
 .. _Poetry: https://python-poetry.org/docs/
 .. _extensions: https://code.visualstudio.com/docs/editor/extension-marketplace
-.. _GPLv2: ./LICENSE

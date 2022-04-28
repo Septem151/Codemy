@@ -9,7 +9,7 @@ of coding.
    :maxdepth: 2
    :caption: Contents:
 
-   runninglocally
+   contributing
    api
 
 ******************
